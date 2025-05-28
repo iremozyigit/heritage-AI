@@ -1,7 +1,7 @@
-streamlit
-reportlab
-pandas
-gspread
-oauth2client
-Pillow
-requests
+streamlit==1.34.0
+reportlab==4.0.8
+pandas==2.2.2
+gspread==5.12.4
+oauth2client==4.1.3
+Pillow==10.3.0
+requests==2.31.
