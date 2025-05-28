@@ -1,0 +1,47 @@
+[
+    {
+        "id":"1",
+        "title":"The Milkmaid",
+        "artist":"Johannes Vermeer",
+        "year":"1657\u20131658",
+        "description":"A domestic kitchen maid pouring milk, symbolizing purity and diligence, with incredible attention to light and texture.",
+        "style":"Dutch Golden Age",
+        "image_url":"https:\/\/www.rijksmuseum.nl\/en\/collection\/SK-A-2344"
+    },
+    {
+        "id":"2",
+        "title":"The Starry Night",
+        "artist":"Vincent van Gogh",
+        "year":"1889",
+        "description":"A swirling night sky over a quiet village, representing emotional turbulence and wonder.",
+        "style":"Post-Impressionism",
+        "image_url":"https:\/\/uploads7.wikiart.org\/images\/vincent-van-gogh\/the-starry-night-1889.jpg"
+    },
+    {
+        "id":"3",
+        "title":"Girl with a Pearl Earring",
+        "artist":"Johannes Vermeer",
+        "year":"1665",
+        "description":"A portrait of a girl turning towards the viewer, characterized by soft light and mysterious gaze.",
+        "style":"Baroque",
+        "image_url":"https:\/\/www.mauritshuis.nl\/en\/discover\/collection\/vermeer-girl-with-a-pearl-earring-670\/"
+    },
+    {
+        "id":"4",
+        "title":"Liberty Leading the People",
+        "artist":"Eug\u00e8ne Delacroix",
+        "year":"1830",
+        "description":"A woman personifying Liberty leads a crowd over the bodies of the fallen, holding the French tricolore aloft.",
+        "style":"Romanticism",
+        "image_url":"https:\/\/www.louvre.fr\/en\/explore\/the-palace\/liberty-leading-the-people"
+    },
+    {
+        "id":"5",
+        "title":"Composition VIII",
+        "artist":"Wassily Kandinsky",
+        "year":"1923",
+        "description":"A complex composition of geometric shapes and lively colors, representing a symphony of abstract forms.",
+        "style":"Abstract Art",
+        "image_url":"https:\/\/www.guggenheim.org\/artwork\/1924"
+    }
+]
