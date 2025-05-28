@@ -14,13 +14,21 @@ from reportlab.pdfbase.ttfonts import TTFont
 from textwrap import wrap
 from PIL import Image as PILImage
 import gspread
-from oauth2client.service_account import ServiceAccountCredentials
+from google.oauth2.service_account import Credentials
 import json
 
+# --- Test Google Sheets Connection ---
+try:
+    test_sheet = client.open("Your Google Sheet Name").sheet1  # Replace with actual sheet name
+    test_sheet.append_row(["✅ Connection successful"])
+    st.success("✅ Successfully connected to Google Sheets and wrote a test row.")
+except Exception as e:
+    st.error(f"❌ Failed to connect to Google Sheets: {e}")
+    
 # --- Set up connection to Google Sheets ---
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+scope = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
 credentials_dict = st.secrets["gspread"]
-credentials = ServiceAccountCredentials.from_json_keyfile_dict(credentials_dict, scope)
+credentials = Credentials.from_service_account_info(credentials_dict, scopes=scope)
 client = gspread.authorize(credentials)
 
 # --- Load Data ---
