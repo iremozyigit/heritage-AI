@@ -1,7 +1,7 @@
 streamlit>=1.32,<1.35
 pandas>=1.5,<2.1
-reportlab>=3.6,<4.0
+reportlab==3.6.13
 gspread==5.12.0
-google-auth
-Pillow
-requests
+google-auth==2.29.0
+Pillow==10.2.0
+requests==2.31.0
